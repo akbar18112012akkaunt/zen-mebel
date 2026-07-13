@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-meta-title>ZEN PHARM — Мебель для аптек</title>
+    <meta name="description" data-meta-desc content="ZEN PHARM — проектирование, производство и установка мебели для аптек.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Zilla+Slab:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Netlify Identity — авторизация для админ-панели /admin/ -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<body>
+
+    <noscript>
+  <div style="background:#0c3868;color:#fff;text-align:center;padding:14px 20px;font-size:14px;font-weight:600;">
+    Для работы сайта нужен JavaScript. / This page requires JavaScript. / Sitenin çalışması için JavaScript gereklidir. / Sayt ishlashi uchun JavaScript kerak.
+  </div>
+</noscript>
+
+    <!-- ============ HEADER (структура sovaretail: разделы = отдельные страницы) ============ -->
+    <header id="siteHeader" class="sova-header">
+        <div class="container nav-wrap">
+            <a href="./index.html" class="brand">
+                <span class="brand-mark">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2.5h6v6h6v6h-6v6H9v-6H3v-6h6v-6z"/><path d="M3.3 9c3 0 3.5 3.4 7 3.4S16.7 9 20.7 9" stroke-width="1.3"/></svg>
+      </span>
+                <span>ZEN PHARM<span class="brand-sub" data-i18n="brandSub">Design &amp; Furniture</span></span>
+            </a>
+            <nav class="main-nav">
+                <a href="./works.html" data-i18n="nav.projects">Наши работы</a>
+                <a href="./solutions.html" data-i18n="custom.tag">Спец. решения</a>
+                <a href="./product1.html">S25 Wall Unit</a>
+                <a href="./product2.html">Pharmafix</a>
+                <a href="./catalog.html" data-i18n="nav.catalog">Каталог</a>
+                <a href="./about.html" data-i18n="nav.about">О нас</a>
+                <a href="./contact.html" data-i18n="nav.contact">Контакты</a>
+            </nav>
+            <div class="header-right">
+                <div class="nav-dropdown lang-dropdown">
+                    <button type="button" class="nav-drop-btn" id="langDropBtn">RU <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+                    <div class="nav-drop-menu lang-menu" data-lang-switch>
+                        <button type="button" data-lang="tr">TR</button>
+                        <button type="button" data-lang="ru">RU</button>
+                        <button type="button" data-lang="en">EN</button>
+                        <button type="button" data-lang="uz">UZ</button>
+                    </div>
+                </div>
+                <button type="button" class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="./works.html" data-i18n="nav.projects">Наши работы</a>
+            <a href="./solutions.html" data-i18n="custom.tag">Спец. решения</a>
+            <a href="./product1.html">S25 Wall Unit</a>
+            <a href="./product2.html">Pharmafix</a>
+            <a href="./catalog.html" data-i18n="nav.catalog">Каталог</a>
+            <a href="./about.html" data-i18n="nav.about">О нас</a>
+            <a href="./contact.html" data-i18n="nav.contact">Контакты</a>
+            <div class="mobile-lang" data-lang-switch>
+                <button type="button" data-lang="tr">TR</button>
+                <button type="button" data-lang="ru">RU</button>
+                <button type="button" data-lang="en">EN</button>
+                <button type="button" data-lang="uz">UZ</button>
+            </div>
+            <a href="./contact.html" class="btn btn-primary" style="margin-top:16px;width:100%;" data-i18n="nav.quote">Получить расчёт</a>
+        </div>
+    </header>
+
+    <a href="./contact.html" class="quote-tab" data-i18n="nav.quote">Получить расчёт</a>
+
+    <main id="top">
+        <section class="carousel-section">
+            <div class="carousel-container">
+                <div class="carousel-wrapper">
+                    <div class="carousel-slide active" data-slide="0">
+                        <img src="./assets/images/carusel-zenpharm1.jpg" alt="ZEN PHARM Carousel 1">
+                    </div>
+                    <div class="carousel-slide" data-slide="1">
+                        <img src="./assets/images/carusel-zenpharm2.jpg" alt="ZEN PHARM Carousel 2">
+                    </div>
+                    <div class="carousel-slide" data-slide="2">
+                        <img src="./assets/images/carusel-zenpharm3.jpg" alt="ZEN PHARM Carousel 3">
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+                <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+                <div class="carousel-dots" id="carouselDots"></div>
+            </div>
+        </section>
+
+        <section class="hero" style="padding-top:64px;">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="tag" data-i18n="products.tag">Что мы производим</span>
+                    <h1 data-i18n="hero.title">Мебель, которая делает работу аптеки удобнее</h1>
+                    <p data-i18n="hero.subtitle">Мы проектируем, производим и устанавливаем торговую мебель специально для аптек.</p>
+                    <div class="hero-actions">
+                        <a href="./contact.html" class="btn btn-primary" data-i18n="hero.cta1">Бесплатная консультация</a>
+                        <a href="./works.html" class="btn btn-outline" data-i18n="hero.cta2">Наши проекты</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <svg class="hero-illustration" viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="shelfGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+              <stop offset="1" stop-color="#eef4fc" stop-opacity="0.85"/>
+            </linearGradient>
+          </defs>
+          <circle cx="240" cy="210" r="185" fill="rgba(255,255,255,0.06)"/>
+          <circle cx="240" cy="210" r="140" fill="rgba(255,255,255,0.06)"/>
+          <g transform="translate(70,60)">
+            <rect x="0" y="0" width="340" height="300" rx="16" fill="url(#shelfGrad)"/>
+            <rect x="24" y="28" width="292" height="46" rx="8" fill="#1656a8"/>
+            <rect x="24" y="90" width="292" height="8" rx="4" fill="#d7e3ee"/>
+            <rect x="24" y="112" width="292" height="8" rx="4" fill="#d7e3ee"/>
+            <g fill="#2f8fe0">
+              <rect x="36" y="60" width="16" height="22" rx="3"/>
+              <rect x="58" y="58" width="16" height="24" rx="3"/>
+              <rect x="80" y="62" width="16" height="20" rx="3"/>
+            </g>
+            <g fill="#1656a8">
+              <circle cx="46" cy="140" r="9"/><circle cx="72" cy="140" r="9"/><circle cx="98" cy="140" r="9"/>
+              <circle cx="124" cy="140" r="9"/><circle cx="150" cy="140" r="9"/><circle cx="176" cy="140" r="9"/>
+              <circle cx="202" cy="140" r="9"/><circle cx="228" cy="140" r="9"/><circle cx="254" cy="140" r="9"/>
+              <circle cx="280" cy="140" r="9"/>
+            </g>
+            <rect x="24" y="162" width="292" height="8" rx="4" fill="#d7e3ee"/>
+            <g fill="#1f6fbd">
+              <rect x="36" y="182" width="20" height="26" rx="3"/><rect x="64" y="178" width="20" height="30" rx="3"/>
+              <rect x="92" y="184" width="20" height="24" rx="3"/><rect x="120" y="180" width="20" height="28" rx="3"/>
+              <rect x="148" y="182" width="20" height="26" rx="3"/><rect x="176" y="178" width="20" height="30" rx="3"/>
+              <rect x="204" y="184" width="20" height="24" rx="3"/><rect x="232" y="180" width="20" height="28" rx="3"/>
+              <rect x="260" y="182" width="20" height="26" rx="3"/>
+            </g>
+            <rect x="24" y="232" width="292" height="8" rx="4" fill="#d7e3ee"/>
+            <rect x="24" y="256" width="140" height="30" rx="7" fill="#eef4fc" stroke="#1656a8" stroke-width="2"/>
+            <rect x="176" y="256" width="140" height="30" rx="7" fill="#eef4fc" stroke="#1656a8" stroke-width="2"/>
+          </g>
+          <g transform="translate(300,250)">
+            <circle cx="0" cy="0" r="46" fill="#2f8fe0"/>
+            <path d="M0 -18v36M-18 0h36" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+          </g>
+        </svg>
+                </div>
+            </div>
+            <div class="container">
+                <div class="stats-bar" id="statsBar"></div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container about-grid">
+                <div class="about-visual reveal">
+                    <svg viewBox="0 0 340 320" xmlns="http://www.w3.org/2000/svg">
+          <rect x="10" y="10" width="320" height="300" rx="14" fill="#ffffff" stroke="#1656a8" stroke-width="2" stroke-dasharray="6 6"/>
+          <rect x="34" y="34" width="130" height="90" rx="8" fill="#1656a8"/>
+          <rect x="176" y="34" width="130" height="40" rx="8" fill="#2f8fe0"/>
+          <rect x="176" y="84" width="130" height="40" rx="8" fill="#eef4fc" stroke="#1656a8" stroke-width="1.5"/>
+          <rect x="34" y="140" width="272" height="12" rx="6" fill="#d7e3ee"/>
+          <rect x="34" y="164" width="220" height="12" rx="6" fill="#d7e3ee"/>
+          <rect x="34" y="188" width="272" height="90" rx="8" fill="#eef4fc" stroke="#1656a8" stroke-width="1.5" stroke-dasharray="4 5"/>
+          <circle cx="170" cy="233" r="26" fill="#1f6fbd"/>
+          <path d="M170 221v24M158 233h24" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+                </div>
+                <div class="about-text reveal">
+                    <span class="tag" data-i18n="about.tag">О компании</span>
+                    <h2 data-i18n="about.heading">Мы создаём мебель, на которой держится каждая хорошая аптека</h2>
+                    <p data-i18n="about.p1"></p>
+                    <p data-i18n="about.p2"></p>
+                    <ul class="about-list" id="aboutList"></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <div class="section-head center">
+                    <span class="tag" data-i18n="products.tag">Что мы производим</span>
+                    <h2 data-i18n="products.heading">Мебель для каждого уголка вашей аптеки</h2>
+                    <p data-i18n="products.subheading"></p>
+                </div>
+                <div class="products-grid" id="productsGrid"></div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="section-head center">
+                    <span class="tag" data-i18n="features.tag">Почему ZEN PHARM</span>
+                    <h2 data-i18n="features.heading">Построено на опыте, проверено аптеками</h2>
+                </div>
+                <div class="features-grid" id="featuresGrid"></div>
+            </div>
+        </section>
+
+
+        <section id="testimonials">
+            <div class="container">
+                <div class="section-head center">
+                    <span class="tag" data-i18n="testimonials.tag">Отзывы</span>
+                    <h2 data-i18n="testimonials.heading">Что говорят наши клиенты</h2>
+                </div>
+                <div class="testimonials-grid" id="testimonialsGrid"></div>
+            </div>
+        </section>
+
+        <section style="padding:0 0 96px;">
+            <div class="cta-banner">
+                <div>
+                    <h2 data-i18n="cta.heading">Готовы обновить свою аптеку?</h2>
+                    <p data-i18n="cta.text">Получите бесплатную консультацию и 3D-планировку — без обязательств.</p>
+                </div>
+                <a href="./contact.html" class="btn btn-dark" data-i18n="cta.button">Получить бесплатную консультацию</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="./index.html" class="brand">
+                        <span class="brand-mark">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2.5h6v6h6v6h-6v6H9v-6H3v-6h6v-6z"/><path d="M3.3 9c3 0 3.5 3.4 7 3.4S16.7 9 20.7 9" stroke-width="1.3"/></svg>
+          </span>
+                        <span>ZEN PHARM</span>
+                    </a>
+                    <p data-i18n="footer.about"></p>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.quickLinksTitle">Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="./about.html" data-i18n="nav.about">О нас</a></li>
+                        <li><a href="./index.html#products" data-i18n="nav.products">Продукция</a></li>
+                        <li><a href="./works.html#process" data-i18n="nav.process">Процесс</a></li>
+                        <li><a href="./works.html" data-i18n="nav.projects">Проекты</a></li>
+                        <li><a href="./contact.html" data-i18n="nav.contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.productsTitle">Продукция</h4>
+                    <ul id="footerProducts"></ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.contactTitle">Контакты</h4>
+                    <ul>
+                        <li id="footerAddress"></li>
+                        <li data-contact="phone">+998 90 134 96 66</li>
+                        <li data-contact="email">zen@zenconcept.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span id="year"></span> ZEN PHARM. <span data-i18n="footer.rights">Все права защищены.</span></span>
+                <span data-i18n="footer.cities">Ташкент, Узбекистан</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <!-- Netlify Identity: после входа по инвайт-ссылке редиректим в админку -->
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", function(user) {
+                if (!user) {
+                    window.netlifyIdentity.on("login", function() {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

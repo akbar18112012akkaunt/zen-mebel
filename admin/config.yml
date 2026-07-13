@@ -1,0 +1,204 @@
+# ============================================================
+# Decap CMS — конфигурация админ-панели ZEN PHARM
+# Панель доступна по адресу: https://ВАШ-САЙТ/admin/
+# ============================================================
+
+backend:
+  name: git-gateway
+  branch: main # если ваша ветка называется master — замените здесь
+
+# Язык интерфейса админки
+locale: "ru"
+
+# Куда складываются загружаемые картинки
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+# Превью не настраиваем — сайт рендерится своим JS
+editor:
+  preview: false
+
+collections:
+  # ==========================================================
+  # ПРОДУКЦИЯ
+  # ==========================================================
+  - name: "products"
+    label: "Продукция"
+    files:
+      # --------------------------------------------------
+      # ПРОДУКТ 1 — S25 Wall Unit
+      # --------------------------------------------------
+      - name: "product1"
+        label: "Продукт 1 — S25 Wall Unit"
+        file: "content/product1.json"
+        fields:
+          - label: "Фото продукта (product-1-new)"
+            name: "image"
+            widget: "image"
+            hint: "Одно статичное фото продукта S25 Wall Unit"
+
+          - label: "Турецкий (TR)"
+            name: "tr"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Подзаголовок", name: "sub", widget: "string" }
+              - { label: "Описание", name: "desc", widget: "text" }
+              - label: "Характеристики (8 пунктов)"
+                name: "features"
+                widget: "list"
+                min: 8
+                max: 8
+                field: { label: "Пункт", name: "item", widget: "string" }
+
+          - label: "Русский (RU)"
+            name: "ru"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Подзаголовок", name: "sub", widget: "string" }
+              - { label: "Описание", name: "desc", widget: "text" }
+              - label: "Характеристики (8 пунктов)"
+                name: "features"
+                widget: "list"
+                min: 8
+                max: 8
+                field: { label: "Пункт", name: "item", widget: "string" }
+
+          - label: "Английский (EN)"
+            name: "en"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Подзаголовок", name: "sub", widget: "string" }
+              - { label: "Описание", name: "desc", widget: "text" }
+              - label: "Характеристики (8 пунктов)"
+                name: "features"
+                widget: "list"
+                min: 8
+                max: 8
+                field: { label: "Пункт", name: "item", widget: "string" }
+
+          - label: "Узбекский (UZ)"
+            name: "uz"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Подзаголовок", name: "sub", widget: "string" }
+              - { label: "Описание", name: "desc", widget: "text" }
+              - label: "Характеристики (8 пунктов)"
+                name: "features"
+                widget: "list"
+                min: 8
+                max: 8
+                field: { label: "Пункт", name: "item", widget: "string" }
+
+      # --------------------------------------------------
+      # ПРОДУКТ 2 — Pharmafix
+      # --------------------------------------------------
+      - name: "product2"
+        label: "Продукт 2 — Pharmafix"
+        file: "content/product2.json"
+        fields:
+          - label: "Фото 1 (product-two-new-photo)"
+            name: "photo1"
+            widget: "image"
+            hint: "Первое фото слайдера Pharmafix"
+          - label: "Фото 2 (product-2-new-photo)"
+            name: "photo2"
+            widget: "image"
+            hint: "Второе фото слайдера Pharmafix"
+
+          - label: "Турецкий (TR)"
+            name: "tr"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Подзаголовок", name: "sub", widget: "string" }
+              - { label: "Описание", name: "desc", widget: "text" }
+              - label: "Характеристики (6 пунктов)"
+                name: "features"
+                widget: "list"
+                min: 6
+                max: 6
+                field: { label: "Пункт", name: "item", widget: "string" }
+              - { label: "Завершающий абзац", name: "closing", widget: "text" }
+
+          - label: "Русский (RU)"
+            name: "ru"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Подзаголовок", name: "sub", widget: "string" }
+              - { label: "Описание", name: "desc", widget: "text" }
+              - label: "Характеристики (6 пунктов)"
+                name: "features"
+                widget: "list"
+                min: 6
+                max: 6
+                field: { label: "Пункт", name: "item", widget: "string" }
+              - { label: "Завершающий абзац", name: "closing", widget: "text" }
+
+          - label: "Английский (EN)"
+            name: "en"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Подзаголовок", name: "sub", widget: "string" }
+              - { label: "Описание", name: "desc", widget: "text" }
+              - label: "Характеристики (6 пунктов)"
+                name: "features"
+                widget: "list"
+                min: 6
+                max: 6
+                field: { label: "Пункт", name: "item", widget: "string" }
+              - { label: "Завершающий абзац", name: "closing", widget: "text" }
+
+          - label: "Узбекский (UZ)"
+            name: "uz"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Подзаголовок", name: "sub", widget: "string" }
+              - { label: "Описание", name: "desc", widget: "text" }
+              - label: "Характеристики (6 пунктов)"
+                name: "features"
+                widget: "list"
+                min: 6
+                max: 6
+                field: { label: "Пункт", name: "item", widget: "string" }
+              - { label: "Завершающий абзац", name: "closing", widget: "text" }
+
+  # ==========================================================
+  # КОНТАКТЫ И ФАЙЛЫ
+  # ==========================================================
+  - name: "settings"
+    label: "Контакты и файлы"
+    files:
+      - name: "contacts"
+        label: "Контакты"
+        file: "content/contacts.json"
+        fields:
+          - { label: "Телефон", name: "phone", widget: "string", hint: "Показывается на странице Контакты и в подвале всех страниц" }
+          - { label: "Почта (Email)", name: "email", widget: "string" }
+          - { label: "Instagram", name: "instagram", widget: "string", hint: "Логин с @ или без, например: @zendorixonamebel" }
+          - { label: "Рабочее время", name: "hours", widget: "string", hint: "Например: 09:00 – 18:00" }
+          - label: "Адрес (на каждом языке)"
+            name: "address"
+            widget: "object"
+            fields:
+              - { label: "Адрес (RU)", name: "ru", widget: "string" }
+              - { label: "Adres (TR)", name: "tr", widget: "string" }
+              - { label: "Address (EN)", name: "en", widget: "string" }
+              - { label: "Manzil (UZ)", name: "uz", widget: "string" }
+
+      - name: "catalog"
+        label: "Каталог (PDF)"
+        file: "content/catalog.json"
+        fields:
+          - label: "PDF-файл каталога"
+            name: "file"
+            widget: "file"
+            media_folder: "/files"
+            public_folder: "/files"
+            hint: "Загрузите новый PDF — кнопки «Скачать каталог» на сайте начнут отдавать его автоматически"

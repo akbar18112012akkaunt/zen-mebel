@@ -1,0 +1,59 @@
+{
+  "image": "assets/images/product-1-new.jpg",
+  "tr": {
+    "sub": "Modüler duvar raf sistemi",
+    "desc": "S25 Wall Unit, modern eczaneler için tasarlanmış modüler bir duvar raf sistemidir. Şık tasarımı, yüksek ürün teşhir kapasitesi ve fonksiyonel depolama alanlarıyla mağazanızın hem görünümünü hem de verimliliğini artırır.",
+    "features": [
+      "Modüler ve ölçüye özel üretim",
+      "Elektrostatik boyalı çelik taşıyıcı sistem",
+      "MDF-Lam veya MDF-Lake yüzey seçenekleri",
+      "Ayarlanabilir raf sistemi",
+      "LED aydınlatmalı Lightbox reklam alanı",
+      "Pegboard ve askı aksesuarlarıyla esnek kullanım",
+      "Alt bölümde çekmece ve dolap depolama alanı",
+      "Kolay montaj, dayanıklı ve uzun ömürlü yapı"
+    ]
+  },
+  "ru": {
+    "sub": "Модульная настенная стеллажная система",
+    "desc": "S25 Wall Unit — модульная настенная стеллажная система, разработанная для современных аптек. Стильный дизайн, высокая ёмкость выкладки товара и функциональные зоны хранения улучшают как внешний вид, так и эффективность вашего торгового зала.",
+    "features": [
+      "Модульная конструкция и изготовление по индивидуальным размерам",
+      "Стальная несущая система с электростатической окраской",
+      "Варианты поверхностей: МДФ-ламинат (MDF-Lam) или крашеный МДФ (MDF-Lake)",
+      "Регулируемая система полок",
+      "Рекламная зона Lightbox с LED-подсветкой",
+      "Гибкое использование с перфопанелью (pegboard) и навесными аксессуарами",
+      "Выдвижные ящики и шкафы для хранения в нижней части",
+      "Простой монтаж, прочная и долговечная конструкция"
+    ]
+  },
+  "en": {
+    "sub": "Modular wall shelving system",
+    "desc": "The S25 Wall Unit is a modular wall shelving system designed for modern pharmacies. With its sleek design, high product display capacity and functional storage areas, it improves both the look and the efficiency of your store.",
+    "features": [
+      "Modular design, manufactured to custom dimensions",
+      "Electrostatically painted steel support structure",
+      "MDF-Laminate or lacquered MDF (MDF-Lake) surface options",
+      "Adjustable shelving system",
+      "Lightbox advertising area with LED lighting",
+      "Flexible use with pegboard and hanging accessories",
+      "Drawer and cabinet storage in the lower section",
+      "Easy installation, durable and long-lasting construction"
+    ]
+  },
+  "uz": {
+    "sub": "Modulli devor stellaj tizimi",
+    "desc": "S25 Wall Unit — zamonaviy dorixonalar uchun ishlab chiqilgan modulli devor stellaj tizimi. Zamonaviy dizayni, mahsulotlarni keng namoyish etish imkoniyati va funksional saqlash bo'limlari tufayli u do'koningizning ham ko'rinishini, ham samaradorligini oshiradi.",
+    "features": [
+      "Modulli konstruksiya va individual o'lchamlar bo'yicha ishlab chiqarish",
+      "Elektrostatik usulda bo'yalgan po'lat tayanch tizimi",
+      "MDF-laminat (MDF-Lam) yoki lak qoplamali MDF (MDF-Lake) yuza variantlari",
+      "Sozlanadigan javon tizimi",
+      "LED yoritishli Lightbox reklama maydoni",
+      "Pegboard (perfopanel) va osma aksessuarlar bilan moslashuvchan foydalanish",
+      "Pastki qismida tortmalar va saqlash uchun shkaf bo'limi",
+      "Oson o'rnatish, mustahkam va uzoq muddat xizmat qiluvchi konstruksiya"
+    ]
+  }
+}

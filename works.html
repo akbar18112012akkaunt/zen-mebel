@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="titles.works">Наши работы — ZEN PHARM</title>
+    <meta name="description" content="ZEN PHARM — проектирование, производство и установка мебели для аптек.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Zilla+Slab:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <noscript>
+  <div style="background:#0c3868;color:#fff;text-align:center;padding:14px 20px;font-size:14px;font-weight:600;">
+    Для работы сайта нужен JavaScript. / This page requires JavaScript. / Sitenin çalışması için JavaScript gereklidir. / Sayt ishlashi uchun JavaScript kerak.
+  </div>
+</noscript>
+
+    <!-- ============ HEADER (структура sovaretail: разделы = отдельные страницы) ============ -->
+    <header id="siteHeader" class="sova-header">
+        <div class="container nav-wrap">
+            <a href="./index.html" class="brand">
+                <span class="brand-mark">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2.5h6v6h6v6h-6v6H9v-6H3v-6h6v-6z"/><path d="M3.3 9c3 0 3.5 3.4 7 3.4S16.7 9 20.7 9" stroke-width="1.3"/></svg>
+      </span>
+                <span>ZEN PHARM<span class="brand-sub" data-i18n="brandSub">Design &amp; Furniture</span></span>
+            </a>
+            <nav class="main-nav">
+                <a href="./works.html" class="nav-active" data-i18n="nav.projects">Наши работы</a>
+                <a href="./solutions.html" data-i18n="custom.tag">Спец. решения</a>
+                <a href="./product1.html">S25 Wall Unit</a>
+                <a href="./product2.html">Pharmafix</a>
+                <a href="./catalog.html" data-i18n="nav.catalog">Каталог</a>
+                <a href="./about.html" data-i18n="nav.about">О нас</a>
+                <a href="./contact.html" data-i18n="nav.contact">Контакты</a>
+            </nav>
+            <div class="header-right">
+                <div class="nav-dropdown lang-dropdown">
+                    <button type="button" class="nav-drop-btn" id="langDropBtn">RU <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+                    <div class="nav-drop-menu lang-menu" data-lang-switch>
+                        <button type="button" data-lang="tr">TR</button>
+                        <button type="button" data-lang="ru">RU</button>
+                        <button type="button" data-lang="en">EN</button>
+                        <button type="button" data-lang="uz">UZ</button>
+                    </div>
+                </div>
+                <button type="button" class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="./works.html" data-i18n="nav.projects">Наши работы</a>
+            <a href="./solutions.html" data-i18n="custom.tag">Спец. решения</a>
+            <a href="./product1.html">S25 Wall Unit</a>
+            <a href="./product2.html">Pharmafix</a>
+            <a href="./catalog.html" data-i18n="nav.catalog">Каталог</a>
+            <a href="./about.html" data-i18n="nav.about">О нас</a>
+            <a href="./contact.html" data-i18n="nav.contact">Контакты</a>
+            <div class="mobile-lang" data-lang-switch>
+                <button type="button" data-lang="tr">TR</button>
+                <button type="button" data-lang="ru">RU</button>
+                <button type="button" data-lang="en">EN</button>
+                <button type="button" data-lang="uz">UZ</button>
+            </div>
+            <a href="./contact.html" class="btn btn-primary" style="margin-top:16px;width:100%;" data-i18n="nav.quote">Получить расчёт</a>
+        </div>
+    </header>
+
+    <a href="./contact.html" class="quote-tab" data-i18n="nav.quote">Получить расчёт</a>
+
+    <main id="top">
+        <section id="portfolio" class="portfolio">
+            <div class="page-banner">
+                <div class="container">
+                    <span class="banner-tag" data-i18n="work.tag">СОЗДАЁМ РАЗНИЦУ</span>
+                    <h2 data-i18n="work.title">Наши работы</h2>
+                    <p data-i18n="work.sub">Откройте для себя проекты аптек нового поколения, успешно реализованные нами в Узбекистане и других странах Центральной Азии.</p>
+                </div>
+                <div class="banner-breadcrumb">
+                    <div class="container breadcrumb-inner">
+                        <a href="./index.html" aria-label="Главная"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                        <span>›</span>
+                        <span data-i18n="work.title">Наши работы</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="padding-top:56px;">
+
+                <!-- Фильтры категорий (как Tümü / Marketler / Mağazalar / Özel Çözümler) -->
+                <div class="portfolio-filters reveal" id="portfolioFilters">
+                    <button type="button" class="filter-btn active" data-filter="all" data-i18n="work.fAll">Все</button>
+                    <button type="button" class="filter-btn" data-filter="tashkent" data-i18n="work.fTash">Ташкент</button>
+                    <button type="button" class="filter-btn" data-filter="samarkand" data-i18n="work.fSam">Самарканд</button>
+                </div>
+
+                <!-- Сетка проектов: hover — зум фото + выезжающая плашка «Смотреть» -->
+                <div class="portfolio-grid" id="portfolioGrid">
+                    <a href="#" class="portfolio-card reveal" data-category="tashkent">
+                        <div class="portfolio-media"><img src="./assets/images/projects-one.jpg" alt="Проект 1" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fTash">Ташкент</span>
+                            <h3 data-i18n="work.proj1">Проект 1</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio-card reveal" data-category="tashkent">
+                        <div class="portfolio-media"><img src="./assets/images/projects-two.jpg" alt="Проект 1" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fTash">Ташкент</span>
+                            <h3 data-i18n="work.proj1">Проект 1</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio-card reveal" data-category="tashkent">
+                        <div class="portfolio-media"><img src="./assets/images/projects-three.jpg" alt="Проект 1" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fTash">Ташкент</span>
+                            <h3 data-i18n="work.proj1">Проект 1</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio-card reveal" data-category="tashkent">
+                        <div class="portfolio-media"><img src="./assets/images/projects-four.jpg" alt="Проект 1" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fTash">Ташкент</span>
+                            <h3 data-i18n="work.proj1">Проект 1</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio-card reveal" data-category="tashkent">
+                        <div class="portfolio-media"><img src="./assets/images/projects-five.jpg" alt="Проект 1" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fTash">Ташкент</span>
+                            <h3 data-i18n="work.proj1">Проект 1</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio-card reveal" data-category="tashkent">
+                        <div class="portfolio-media"><img src="./assets/images/projects-six.jpg" alt="Проект 2" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fTash">Ташкент</span>
+                            <h3 data-i18n="work.proj2">Проект 2</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio-card reveal hidden-card" data-category="tashkent">
+                        <div class="portfolio-media"><img src="./assets/images/projects-seven.jpg" alt="Проект 2" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fTash">Ташкент</span>
+                            <h3 data-i18n="work.proj2">Проект 2</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio-card reveal hidden-card" data-category="tashkent">
+                        <div class="portfolio-media"><img src="./assets/images/projects-eight.jpg" alt="Проект 2" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fTash">Ташкент</span>
+                            <h3 data-i18n="work.proj2">Проект 2</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio-card reveal hidden-card" data-category="samarkand">
+                        <div class="portfolio-media"><img src="./assets/images/projects-nine.jpg" alt="Проект 3" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fSam">Самарканд</span>
+                            <h3 data-i18n="work.proj3">Проект 3</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio-card reveal hidden-card" data-category="samarkand">
+                        <div class="portfolio-media"><img src="./assets/images/projects-ten.jpg" alt="Проект 3" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fSam">Самарканд</span>
+                            <h3 data-i18n="work.proj3">Проект 3</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="#" class="portfolio-card reveal hidden-card" data-category="samarkand">
+                        <div class="portfolio-media"><img src="./assets/images/projects-eleven.jpg" alt="Проект 3" loading="lazy"></div>
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-cat" data-i18n="work.fSam">Самарканд</span>
+                            <h3 data-i18n="work.proj3">Проект 3</h3>
+                            <span class="portfolio-link"><span data-i18n="work.view">Смотреть</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div style="text-align:center;margin-top:40px;">
+                    <button type="button" class="btn btn-outline-dark" id="showMoreBtn" data-i18n="work.more">Показать ещё</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="process">
+            <div class="container">
+                <div class="section-head center">
+                    <span class="tag" data-i18n="process.tag">Как мы работаем</span>
+                    <h2 data-i18n="process.heading">От идеи до установки — в четыре этапа</h2>
+                    <p data-i18n="process.subheading"></p>
+                </div>
+                <div class="process-steps" id="processSteps"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="./index.html" class="brand">
+                        <span class="brand-mark">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2.5h6v6h6v6h-6v6H9v-6H3v-6h6v-6z"/><path d="M3.3 9c3 0 3.5 3.4 7 3.4S16.7 9 20.7 9" stroke-width="1.3"/></svg>
+          </span>
+                        <span>ZEN PHARM</span>
+                    </a>
+                    <p data-i18n="footer.about"></p>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.quickLinksTitle">Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="./about.html" data-i18n="nav.about">О нас</a></li>
+                        <li><a href="./index.html#products" data-i18n="nav.products">Продукция</a></li>
+                        <li><a href="./works.html#process" data-i18n="nav.process">Процесс</a></li>
+                        <li><a href="./works.html" data-i18n="nav.projects">Проекты</a></li>
+                        <li><a href="./contact.html" data-i18n="nav.contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.productsTitle">Продукция</h4>
+                    <ul id="footerProducts"></ul>
+                </div>
+                <div>
+                    <h4 data-i18n="footer.contactTitle">Контакты</h4>
+                    <ul>
+                        <li id="footerAddress"></li>
+                        <li data-contact="phone">+998 90 134 96 66</li>
+                        <li data-contact="email">zen@zenconcept.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span id="year"></span> ZEN PHARM. <span data-i18n="footer.rights">Все права защищены.</span></span>
+                <span data-i18n="footer.cities">Ташкент, Узбекистан</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

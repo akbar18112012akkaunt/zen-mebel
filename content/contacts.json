@@ -1,0 +1,12 @@
+{
+  "phone": "+998 90 134 96 66",
+  "email": "zen@zenconcept.com",
+  "instagram": "@zendorixonamebel",
+  "hours": "09:00 – 18:00",
+  "address": {
+    "ru": "Узбекистан, Ташкент, ул. Ахмада Дониша",
+    "tr": "Ahmad Donish Caddesi, Taşkent, Özbekistan",
+    "en": "Ahmad Donish Street, Tashkent, Uzbekistan",
+    "uz": "Ahmad Donish ko'chasi, Toshkent, O'zbekiston"
+  }
+}

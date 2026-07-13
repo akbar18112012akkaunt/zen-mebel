@@ -1,0 +1,56 @@
+{
+  "photo1": "assets/images/product-two-new-photo.jpg",
+  "photo2": "assets/images/product-2-new-photo.jpg",
+  "tr": {
+    "sub": "İlaç Depolama Çekmece Sistemi",
+    "desc": "Modern eczaneler için tasarlanan İlaç Depolama Çekmece Sistemi, ilaçların düzenli, güvenli ve hızlı bir şekilde saklanmasını sağlar. Ergonomik yapısı ve yüksek depolama kapasitesi sayesinde çalışma verimliliğini artırır.",
+    "features": [
+      "Tam açılır teleskopik ray sistemi",
+      "Ayarlanabilir şeffaf bölücüler",
+      "Yüksek depolama kapasitesi",
+      "Dayanıklı çelik gövde",
+      "Kolay temizlenebilir yüzey",
+      "Farklı ölçülerde üretim"
+    ],
+    "closing": "Bu sistem, reçeteli ilaçlar, OTC ürünleri, vitaminler ve medikal ürünlerin düzenli depolanması için ideal bir çözümdür."
+  },
+  "ru": {
+    "sub": "Система выдвижных ящиков для хранения лекарств",
+    "desc": "Система выдвижных ящиков для хранения лекарств, разработанная для современных аптек, обеспечивает упорядоченное и безопасное хранение препаратов и быстрый доступ к ним. Эргономичная конструкция и высокая ёмкость хранения повышают эффективность работы.",
+    "features": [
+      "Полновыдвижная телескопическая система направляющих",
+      "Регулируемые прозрачные разделители",
+      "Высокая ёмкость хранения",
+      "Прочный стальной корпус",
+      "Легко очищаемая поверхность",
+      "Изготовление в различных размерах"
+    ],
+    "closing": "Эта система — идеальное решение для упорядоченного хранения рецептурных препаратов, безрецептурных (OTC) товаров, витаминов и медицинских изделий."
+  },
+  "en": {
+    "sub": "Medicine Storage Drawer System",
+    "desc": "Designed for modern pharmacies, the Medicine Storage Drawer System keeps medicines stored in an organized, secure and quickly accessible way. Its ergonomic structure and high storage capacity increase working efficiency.",
+    "features": [
+      "Full-extension telescopic rail system",
+      "Adjustable transparent dividers",
+      "High storage capacity",
+      "Durable steel body",
+      "Easy-to-clean surface",
+      "Available in different sizes"
+    ],
+    "closing": "This system is an ideal solution for the organized storage of prescription medicines, OTC products, vitamins and medical supplies."
+  },
+  "uz": {
+    "sub": "Dori-darmonlarni saqlash uchun tortma tizimi",
+    "desc": "Zamonaviy dorixonalar uchun ishlab chiqilgan ushbu dori saqlash tortma tizimi dorilarni tartibli, xavfsiz saqlash va ularni tezda topish imkonini beradi. Ergonomik tuzilishi va yuqori saqlash sig'imi ish samaradorligini oshiradi.",
+    "features": [
+      "To'liq ochiladigan teleskopik yo'naltiruvchilar tizimi",
+      "Sozlanadigan shaffof ajratgichlar",
+      "Yuqori saqlash sig'imi",
+      "Mustahkam po'lat korpus",
+      "Oson tozalanadigan yuza",
+      "Turli o'lchamlarda ishlab chiqarish"
+    ],
+    "closing": "Ushbu tizim retseptli dorilar, OTC mahsulotlari, vitaminlar va tibbiy buyumlarni tartibli saqlash uchun ideal yechimdir."
+  }
+}
