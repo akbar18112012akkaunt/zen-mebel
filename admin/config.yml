@@ -7,8 +7,8 @@ backend:
   name: git-gateway
   branch: main # если ваша ветка называется master — замените здесь
 
-# Язык интерфейса админки
-locale: "ru"
+# Автоматический язык интерфейса (подстроится под браузер: TR, RU или UZ)
+locale: true
 
 # Куда складываются загружаемые картинки
 media_folder: "assets/images"
