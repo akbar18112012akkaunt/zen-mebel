@@ -76,10 +76,14 @@ const translations = {
             f6: "Available in different sizes",
             closing: "This system is an ideal solution for the organized storage of prescription medicines, OTC products, vitamins and medical supplies.",
             engTitle: "Flawless Engineering",
-            e1t: "Robust construction", e1d: "The steel body withstands the intensive daily load of fully loaded drawers.",
-            e2t: "Silent operation", e2d: "Telescopic rails open smoothly and quietly even under full load.",
-            e3t: "Everyday comfort", e3d: "Thoughtful ergonomics: every medicine is at hand and takes seconds to find.",
-            e4t: "Built to last", e4d: "The mechanisms are tested for tens of thousands of opening and closing cycles."
+            e1t: "Robust construction",
+            e1d: "The steel body withstands the intensive daily load of fully loaded drawers.",
+            e2t: "Silent operation",
+            e2d: "Telescopic rails open smoothly and quietly even under full load.",
+            e3t: "Everyday comfort",
+            e3d: "Thoughtful ergonomics: every medicine is at hand and takes seconds to find.",
+            e4t: "Built to last",
+            e4d: "The mechanisms are tested for tens of thousands of opening and closing cycles."
         },
         p2dl: { tag: "Detailed Information", title: "Detailed product information", text: "Download the PDF with technical specifications, dimensions and configuration options.", btn: "Download PDF" },
         ab: {
@@ -90,37 +94,52 @@ const translations = {
             p1: "With an experienced team of 25 specialists and more than 20 years of know-how in retail, we develop aesthetic, functional and sales-driven solutions for pharmacies.",
             p2: "With this approach, we provide project-specific design, production and installation services for pharmacy chains and independent pharmacies. Every project is planned individually around the store's size, location, target audience and brand identity.",
             quote: "For us, a pharmacy is not just a space where products are displayed. A well-planned pharmacy is a powerful commercial structure — it strengthens the customer experience, increases space efficiency, makes product categories more visible and raises sales potential.",
-            stat1: "Founded", stat2: "Specialists on the team", stat3: "Years of retail experience", stat4: "Central Asian countries",
+            stat1: "Founded",
+            stat2: "Specialists on the team",
+            stat3: "Years of retail experience",
+            stat4: "Central Asian countries",
             cycleTitle: "Full Cycle — With Our Own Team",
             cycleSub: "From design to production and from production to installation, we manage the entire process with our own professional team, offering our clients reliable, high-quality and sustainable solutions.",
-            c1t: "Design", c1d: "We design every pharmacy individually — around its space, location, audience and brand identity.",
-            c2t: "Production", c2d: "We manufacture in our own facilities under strict quality control, using certified, durable materials.",
-            c3t: "Installation", c3d: "Delivery and installation are handled by our own professional team — fast, precise and with minimal disruption to the pharmacy.",
+            c1t: "Design",
+            c1d: "We design every pharmacy individually — around its space, location, audience and brand identity.",
+            c2t: "Production",
+            c2d: "We manufacture in our own facilities under strict quality control, using certified, durable materials.",
+            c3t: "Installation",
+            c3d: "Delivery and installation are handled by our own professional team — fast, precise and with minimal disruption to the pharmacy.",
             geoTitle: "Project Geography",
             geoText: "Today we deliver projects across Uzbekistan, combining local needs with international retail standards.",
             geo1: "Uzbekistan",
             final: "We don't just manufacture pharmacy furniture. We build stronger brands, more efficient sales spaces and the new-generation pharmacies of the future."
         },
-        cat: { tag: "Catalog", title: "Product Catalog", sub: "All products, dimensions and materials — in one document", dlTitle: "Download the full ZEN PHARM catalog", dlText: "The complete product catalog with dimensions, materials and configuration options.", dlBtn: "Download catalog (PDF)" },
+        cat: { tag: "Catalog", title: "Product Catalog", sub: "All products, dimensions and materials — in one document", dlTitle: "Download the full ZEN PHARM catalog", dlText: "The complete product catalog with dimensions, materials and configuration options.", dlBtn: "Download catalog (PDF)", prodTitle: "Our Products" },
         sol: {
             tag: "Process Management",
             title: "Excellence at Every Step",
             sub: "We make complex processes transparent. Manage risk with our approach — and focus only on the result.",
             expTitle: "Experience ZEN PHARM",
             expQuote: "“The right solution starts with the right material and the right organization”",
-            p1t: "The Right Material", p1d: "Certified, hygienic and durable materials selected for the daily demands of a pharmacy.",
-            p2t: "The Right Design", p2d: "A layout that guides customer flow, highlights the display and increases sales.",
-            p3t: "The Right Production", p3d: "Our own production facilities with strict quality control at every stage.",
-            p4t: "The Right Installation", p4d: "Professional installation right on schedule — with minimal impact on your pharmacy's operations.",
+            p1t: "The Right Material",
+            p1d: "Certified, hygienic and durable materials selected for the daily demands of a pharmacy.",
+            p2t: "The Right Design",
+            p2d: "A layout that guides customer flow, highlights the display and increases sales.",
+            p3t: "The Right Production",
+            p3d: "Our own production facilities with strict quality control at every stage.",
+            p4t: "The Right Installation",
+            p4d: "Professional installation right on schedule — with minimal impact on your pharmacy's operations.",
             matTitle: "Metal · Wood · Glass · Laminate",
             matSub: "In-house production for every configuration"
         },
         work: { tag: "Making a Difference", title: "Our Work", sub: "Discover the new-generation pharmacy projects we have successfully delivered in Uzbekistan and across Central Asia.", fAll: "All", fTash: "Tashkent", fSam: "Samarkand", proj1: "Project 1", proj2: "Project 2", proj3: "Project 3", view: "View", more: "Show more" },
         act: {
             heading: "Take Action Now",
-            c1t: "Get a 3D design of your pharmacy", c1d: "Visualize your investment in advance: we'll prepare a free 3D layout for your space.", c1b: "Request a 3D design",
-            c2t: "Download the catalog", c2d: "The complete catalog with dimensions, materials and product specifications.",
-            c3t: "Get a quote", c3d: "Contact our team — we'll find the ideal solution for your project.", c3b: "Contact us"
+            c1t: "Get a 3D design of your pharmacy",
+            c1d: "Visualize your investment in advance: we'll prepare a free 3D layout for your space.",
+            c1b: "Request a 3D design",
+            c2t: "Download the catalog",
+            c2d: "The complete catalog with dimensions, materials and product specifications.",
+            c3t: "Get a quote",
+            c3d: "Contact our team — we'll find the ideal solution for your project.",
+            c3b: "Contact us"
         },
         con: { tag: "Get in Touch", sub: "Ready to hear your ideas and requests" },
         titles: { about: "About Us — ZEN PHARM", catalog: "Catalog — ZEN PHARM", contact: "Contact — ZEN PHARM", solutions: "Custom Solutions — ZEN PHARM", works: "Our Work — ZEN PHARM" },
@@ -218,10 +237,14 @@ const translations = {
             f6: "Изготовление в различных размерах",
             closing: "Эта система — идеальное решение для упорядоченного хранения рецептурных препаратов, безрецептурных (OTC) товаров, витаминов и медицинских изделий.",
             engTitle: "Безупречная инженерия",
-            e1t: "Прочная конструкция", e1d: "Стальной корпус выдерживает интенсивную ежедневную нагрузку полностью загруженных ящиков.",
-            e2t: "Бесшумный ход", e2d: "Телескопические направляющие открываются плавно и тихо даже при полной загрузке.",
-            e3t: "Комфорт каждый день", e3d: "Продуманная эргономика: каждый препарат под рукой, поиск занимает секунды.",
-            e4t: "Ресурс на годы", e4d: "Механизмы протестированы на десятки тысяч циклов открывания и закрывания."
+            e1t: "Прочная конструкция",
+            e1d: "Стальной корпус выдерживает интенсивную ежедневную нагрузку полностью загруженных ящиков.",
+            e2t: "Бесшумный ход",
+            e2d: "Телескопические направляющие открываются плавно и тихо даже при полной загрузке.",
+            e3t: "Комфорт каждый день",
+            e3d: "Продуманная эргономика: каждый препарат под рукой, поиск занимает секунды.",
+            e4t: "Ресурс на годы",
+            e4d: "Механизмы протестированы на десятки тысяч циклов открывания и закрывания."
         },
         p2dl: { tag: "Подробная информация", title: "Подробная информация о продукте", text: "Скачайте PDF с техническими характеристиками, размерами и вариантами конфигурации.", btn: "Скачать PDF" },
         ab: {
@@ -232,37 +255,52 @@ const translations = {
             p1: "Опытная команда из 25 специалистов и более чем 20-летний опыт в ритейле позволяют нам создавать для аптек эстетичные, функциональные и ориентированные на продажи решения.",
             p2: "Именно с таким подходом мы предлагаем аптечным сетям и независимым аптекам индивидуальные услуги проектирования, производства и монтажа. Каждый проект планируется с учётом площади и расположения точки, целевой аудитории и фирменного стиля бренда.",
             quote: "Для нас аптека — это не просто пространство, где выставлен товар. Правильно спроектированная аптека — это мощный коммерческий инструмент, который улучшает клиентский опыт, повышает эффективность использования площади, делает товарные категории заметнее и увеличивает потенциал продаж.",
-            stat1: "Год основания", stat2: "Специалистов в команде", stat3: "Лет опыта в ритейле", stat4: "Страны Центральной Азии",
+            stat1: "Год основания",
+            stat2: "Специалистов в команде",
+            stat3: "Лет опыта в ритейле",
+            stat4: "Страны Центральной Азии",
             cycleTitle: "Полный цикл — своей командой",
             cycleSub: "Весь процесс — от дизайна до производства и от производства до монтажа — мы ведём собственной профессиональной командой, предлагая клиентам надёжные, качественные и долговечные решения.",
-            c1t: "Дизайн", c1d: "Проектируем каждую аптеку индивидуально — под площадь, расположение, аудиторию и фирменный стиль бренда.",
-            c2t: "Производство", c2d: "Производим мебель на собственных мощностях под строгим контролем качества — из сертифицированных, долговечных материалов.",
-            c3t: "Монтаж", c3d: "Доставку и монтаж выполняет наша профессиональная команда — быстро, аккуратно и с минимальным влиянием на работу аптеки.",
+            c1t: "Дизайн",
+            c1d: "Проектируем каждую аптеку индивидуально — под площадь, расположение, аудиторию и фирменный стиль бренда.",
+            c2t: "Производство",
+            c2d: "Производим мебель на собственных мощностях под строгим контролем качества — из сертифицированных, долговечных материалов.",
+            c3t: "Монтаж",
+            c3d: "Доставку и монтаж выполняет наша профессиональная команда — быстро, аккуратно и с минимальным влиянием на работу аптеки.",
             geoTitle: "География проектов",
             geoText: "Сегодня мы реализуем проекты по всему Узбекистану, объединяя локальные потребности с международными стандартами ритейла.",
             geo1: "Узбекистан",
             final: "Мы не просто производим аптечную мебель. Мы строим более сильные бренды, более эффективные торговые пространства и аптеки нового поколения."
         },
-        cat: { tag: "Каталог", title: "Каталог продукции", sub: "Вся продукция, размеры и материалы — в одном документе", dlTitle: "Скачайте полный каталог ZEN PHARM", dlText: "Полный каталог продукции с размерами, материалами и вариантами конфигураций.", dlBtn: "Скачать каталог (PDF)" },
+        cat: { tag: "Каталог", title: "Каталог продукции", sub: "Вся продукция, размеры и материалы — в одном документе", dlTitle: "Скачайте полный каталог ZEN PHARM", dlText: "Полный каталог продукции с размерами, материалами и вариантами конфигураций.", dlBtn: "Скачать каталог (PDF)", prodTitle: "Наши товары" },
         sol: {
             tag: "Управление процессом",
             title: "Совершенство на каждом шагу",
             sub: "Мы делаем сложные процессы прозрачными. Управляйте рисками с нашим подходом — фокусируйтесь только на результате.",
             expTitle: "Почувствуйте опыт ZEN PHARM",
             expQuote: "«Правильное решение начинается с правильного материала и правильной организации»",
-            p1t: "Правильный материал", p1d: "Сертифицированные, гигиеничные и износостойкие материалы, рассчитанные на ежедневную нагрузку аптеки.",
-            p2t: "Правильное проектирование", p2d: "Планировка, которая управляет потоком покупателей, делает выкладку заметнее и повышает продажи.",
-            p3t: "Правильное производство", p3d: "Собственные мощности и строгий контроль качества на каждом этапе изготовления.",
-            p4t: "Правильный монтаж", p4d: "Профессиональная установка точно в срок — с минимальным влиянием на работу вашей аптеки.",
+            p1t: "Правильный материал",
+            p1d: "Сертифицированные, гигиеничные и износостойкие материалы, рассчитанные на ежедневную нагрузку аптеки.",
+            p2t: "Правильное проектирование",
+            p2d: "Планировка, которая управляет потоком покупателей, делает выкладку заметнее и повышает продажи.",
+            p3t: "Правильное производство",
+            p3d: "Собственные мощности и строгий контроль качества на каждом этапе изготовления.",
+            p4t: "Правильный монтаж",
+            p4d: "Профессиональная установка точно в срок — с минимальным влиянием на работу вашей аптеки.",
             matTitle: "Металл · Дерево · Стекло · Ламинат",
             matSub: "Собственное производство для любой конфигурации"
         },
         work: { tag: "Создаём разницу", title: "Наши работы", sub: "Откройте для себя проекты аптек нового поколения, успешно реализованные нами в Узбекистане и других странах Центральной Азии.", fAll: "Все", fTash: "Ташкент", fSam: "Самарканд", proj1: "Проект 1", proj2: "Проект 2", proj3: "Проект 3", view: "Смотреть", more: "Показать ещё" },
         act: {
             heading: "Действуйте прямо сейчас",
-            c1t: "Получите 3D-проект аптеки", c1d: "Визуализируйте инвестиции заранее: мы бесплатно подготовим 3D-планировку под ваше помещение.", c1b: "Заказать 3D-проект",
-            c2t: "Скачайте каталог", c2d: "Полный каталог с размерами, материалами и спецификациями продукции.",
-            c3t: "Получите предложение", c3d: "Свяжитесь с нашей командой — подберём идеальное решение под ваш проект.", c3b: "Связаться с нами"
+            c1t: "Получите 3D-проект аптеки",
+            c1d: "Визуализируйте инвестиции заранее: мы бесплатно подготовим 3D-планировку под ваше помещение.",
+            c1b: "Заказать 3D-проект",
+            c2t: "Скачайте каталог",
+            c2d: "Полный каталог с размерами, материалами и спецификациями продукции.",
+            c3t: "Получите предложение",
+            c3d: "Свяжитесь с нашей командой — подберём идеальное решение под ваш проект.",
+            c3b: "Связаться с нами"
         },
         con: { tag: "Свяжитесь с нами", sub: "Готовы выслушать ваши идеи и предложения" },
         titles: { about: "О нас — ZEN PHARM", catalog: "Каталог — ZEN PHARM", contact: "Контакты — ZEN PHARM", solutions: "Спец. решения — ZEN PHARM", works: "Наши работы — ZEN PHARM" },
@@ -360,10 +398,14 @@ const translations = {
             f6: "Farklı ölçülerde üretim",
             closing: "Bu sistem, reçeteli ilaçlar, OTC ürünleri, vitaminler ve medikal ürünlerin düzenli depolanması için ideal bir çözümdür.",
             engTitle: "Kusursuz Mühendislik",
-            e1t: "Sağlam yapı", e1d: "Çelik gövde, tam dolu çekmecelerin yoğun günlük yüküne dayanacak şekilde tasarlanmıştır.",
-            e2t: "Sessiz çalışma", e2d: "Teleskopik raylar tam yükte bile yumuşak ve sessiz açılır.",
-            e3t: "Her gün konfor", e3d: "Düşünülmüş ergonomi: her ilaç elinizin altında, bulmak yalnızca saniyeler sürer.",
-            e4t: "Yıllarca kullanım", e4d: "Mekanizmalar on binlerce açma-kapama döngüsüyle test edilmiştir."
+            e1t: "Sağlam yapı",
+            e1d: "Çelik gövde, tam dolu çekmecelerin yoğun günlük yüküne dayanacak şekilde tasarlanmıştır.",
+            e2t: "Sessiz çalışma",
+            e2d: "Teleskopik raylar tam yükte bile yumuşak ve sessiz açılır.",
+            e3t: "Her gün konfor",
+            e3d: "Düşünülmüş ergonomi: her ilaç elinizin altında, bulmak yalnızca saniyeler sürer.",
+            e4t: "Yıllarca kullanım",
+            e4d: "Mekanizmalar on binlerce açma-kapama döngüsüyle test edilmiştir."
         },
         p2dl: { tag: "Detaylı Bilgi", title: "Ürün hakkında detaylı bilgi", text: "Teknik özellikler, ölçüler ve konfigürasyon seçeneklerini içeren PDF'i indirin.", btn: "PDF indirin" },
         ab: {
@@ -374,37 +416,52 @@ const translations = {
             p1: "25 kişilik deneyimli ekibimiz ve perakende sektöründeki 20 yılı aşkın bilgi birikimimizle, eczaneler için estetik, fonksiyonel ve satış odaklı çözümler geliştiriyoruz.",
             p2: "Bu anlayışla; zincir eczaneler ve bağımsız eczaneler için projeye özel tasarım, üretim ve montaj hizmetleri sunuyoruz. Her projeyi mağazanın büyüklüğüne, konumuna, hedef müşteri kitlesine ve marka kimliğine göre özel olarak planlıyoruz.",
             quote: "Bizim için bir eczane yalnızca ürünlerin sergilendiği bir alan değildir. Doğru planlanmış bir eczane; müşteri deneyimini güçlendiren, alan verimliliğini artıran, ürün kategorilerini daha görünür hale getiren ve satış potansiyelini yükselten güçlü bir ticari yapıdır.",
-            stat1: "Kuruluş yılı", stat2: "Uzman ekip üyesi", stat3: "Yıllık perakende deneyimi", stat4: "Orta Asya ülkesi",
+            stat1: "Kuruluş yılı",
+            stat2: "Uzman ekip üyesi",
+            stat3: "Yıllık perakende deneyimi",
+            stat4: "Orta Asya ülkesi",
             cycleTitle: "Tüm Süreç Kendi Ekibimizle",
             cycleSub: "Tasarım aşamasından üretime, üretimden montaja kadar tüm süreci kendi profesyonel ekibimizle yönetiyor; müşterilerimize güvenilir, kaliteli ve sürdürülebilir çözümler sunuyoruz.",
-            c1t: "Tasarım", c1d: "Her eczaneyi alanına, konumuna, hedef kitlesine ve marka kimliğine göre özel olarak tasarlıyoruz.",
-            c2t: "Üretim", c2d: "Mobilyaları kendi tesislerimizde, sıkı kalite kontrolü altında, sertifikalı ve dayanıklı malzemelerle üretiyoruz.",
-            c3t: "Montaj", c3d: "Teslimat ve montajı kendi profesyonel ekibimiz gerçekleştirir — hızlı, özenli ve eczanenin işleyişini en az etkileyecek şekilde.",
+            c1t: "Tasarım",
+            c1d: "Her eczaneyi alanına, konumuna, hedef kitlesine ve marka kimliğine göre özel olarak tasarlıyoruz.",
+            c2t: "Üretim",
+            c2d: "Mobilyaları kendi tesislerimizde, sıkı kalite kontrolü altında, sertifikalı ve dayanıklı malzemelerle üretiyoruz.",
+            c3t: "Montaj",
+            c3d: "Teslimat ve montajı kendi profesyonel ekibimiz gerçekleştirir — hızlı, özenli ve eczanenin işleyişini en az etkileyecek şekilde.",
             geoTitle: "Proje Coğrafyamız",
             geoText: "Bugün Özbekistan genelinde projeler gerçekleştiriyor, yerel ihtiyaçları uluslararası perakende standartlarıyla birleştiriyoruz.",
             geo1: "Özbekistan",
             final: "Biz sadece eczane mobilyası üretmiyoruz. Daha güçlü markalar, daha verimli satış alanları ve geleceğin yeni nesil eczanelerini inşa ediyoruz."
         },
-        cat: { tag: "Katalog", title: "Ürün Kataloğu", sub: "Tüm ürünler, ölçüler ve malzemeler — tek bir dokümanda", dlTitle: "ZEN PHARM'ın tam kataloğunu indirin", dlText: "Ölçüler, malzemeler ve konfigürasyon seçenekleriyle eksiksiz ürün kataloğu.", dlBtn: "Kataloğu indirin (PDF)" },
+        cat: { tag: "Katalog", title: "Ürün Kataloğu", sub: "Tüm ürünler, ölçüler ve malzemeler — tek bir dokümanda", dlTitle: "ZEN PHARM'ın tam kataloğunu indirin", dlText: "Ölçüler, malzemeler ve konfigürasyon seçenekleriyle eksiksiz ürün kataloğu.", dlBtn: "Kataloğu indirin (PDF)", prodTitle: "Ürünlerimiz" },
         sol: {
             tag: "Süreç Yönetimi",
             title: "Her Adımda Mükemmellik",
             sub: "Karmaşık süreçleri şeffaf hale getiriyoruz. Yaklaşımımızla riskleri yönetin — yalnızca sonuca odaklanın.",
             expTitle: "ZEN PHARM Deneyimini Hissedin",
             expQuote: "“Doğru çözüm; doğru malzeme ve doğru organizasyonla başlar”",
-            p1t: "Doğru Malzeme", p1d: "Eczanenin günlük yoğunluğuna göre seçilmiş sertifikalı, hijyenik ve dayanıklı malzemeler.",
-            p2t: "Doğru Tasarım", p2d: "Müşteri akışını yönlendiren, teşhiri öne çıkaran ve satışları artıran yerleşim planı.",
-            p3t: "Doğru Üretim", p3d: "Kendi üretim tesislerimiz ve her aşamada sıkı kalite kontrolü.",
-            p4t: "Doğru Montaj", p4d: "Tam zamanında profesyonel kurulum — eczanenizin işleyişini en az etkileyerek.",
+            p1t: "Doğru Malzeme",
+            p1d: "Eczanenin günlük yoğunluğuna göre seçilmiş sertifikalı, hijyenik ve dayanıklı malzemeler.",
+            p2t: "Doğru Tasarım",
+            p2d: "Müşteri akışını yönlendiren, teşhiri öne çıkaran ve satışları artıran yerleşim planı.",
+            p3t: "Doğru Üretim",
+            p3d: "Kendi üretim tesislerimiz ve her aşamada sıkı kalite kontrolü.",
+            p4t: "Doğru Montaj",
+            p4d: "Tam zamanında profesyonel kurulum — eczanenizin işleyişini en az etkileyerek.",
             matTitle: "Metal · Ahşap · Cam · Laminat",
             matSub: "Her konfigürasyon için kendi üretimimiz"
         },
         work: { tag: "Fark Yaratıyoruz", title: "Çalışmalarımız", sub: "Özbekistan ve Orta Asya'nın diğer ülkelerinde başarıyla hayata geçirdiğimiz yeni nesil eczane projelerini keşfedin.", fAll: "Tümü", fTash: "Taşkent", fSam: "Semerkant", proj1: "Proje 1", proj2: "Proje 2", proj3: "Proje 3", view: "İncele", more: "Daha fazla göster" },
         act: {
             heading: "Hemen Aksiyon Alın",
-            c1t: "Eczanenizin 3D projesini alın", c1d: "Yatırımınızı önceden görün: mekânınıza özel 3D yerleşim planını ücretsiz hazırlayalım.", c1b: "3D proje isteyin",
-            c2t: "Kataloğu indirin", c2d: "Ölçüler, malzemeler ve ürün özellikleriyle eksiksiz katalog.",
-            c3t: "Teklif alın", c3d: "Ekibimizle iletişime geçin — projeniz için ideal çözümü birlikte bulalım.", c3b: "Bize ulaşın"
+            c1t: "Eczanenizin 3D projesini alın",
+            c1d: "Yatırımınızı önceden görün: mekânınıza özel 3D yerleşim planını ücretsiz hazırlayalım.",
+            c1b: "3D proje isteyin",
+            c2t: "Kataloğu indirin",
+            c2d: "Ölçüler, malzemeler ve ürün özellikleriyle eksiksiz katalog.",
+            c3t: "Teklif alın",
+            c3d: "Ekibimizle iletişime geçin — projeniz için ideal çözümü birlikte bulalım.",
+            c3b: "Bize ulaşın"
         },
         con: { tag: "Bize Ulaşın", sub: "Fikirlerinizi ve önerilerinizi dinlemeye hazırız" },
         titles: { about: "Hakkımızda — ZEN PHARM", catalog: "Katalog — ZEN PHARM", contact: "İletişim — ZEN PHARM", solutions: "Özel Çözümler — ZEN PHARM", works: "Çalışmalarımız — ZEN PHARM" },
@@ -502,10 +559,14 @@ const translations = {
             f6: "Turli o'lchamlarda ishlab chiqarish",
             closing: "Ushbu tizim retseptli dorilar, OTC mahsulotlari, vitaminlar va tibbiy buyumlarni tartibli saqlash uchun ideal yechimdir.",
             engTitle: "Benuqson muhandislik",
-            e1t: "Mustahkam konstruksiya", e1d: "Po'lat korpus to'liq yuklangan tortmalarning kundalik intensiv yukiga bardosh beradi.",
-            e2t: "Shovqinsiz ishlash", e2d: "Teleskopik yo'naltiruvchilar to'liq yuklanganda ham ravon va shovqinsiz ochiladi.",
-            e3t: "Har kungi qulaylik", e3d: "Puxta ergonomika: har bir dori qo'l ostida va soniyalarda topiladi.",
-            e4t: "Yillarga mo'ljallangan resurs", e4d: "Mexanizmlar o'n minglab ochish-yopish sikllarida sinovdan o'tgan."
+            e1t: "Mustahkam konstruksiya",
+            e1d: "Po'lat korpus to'liq yuklangan tortmalarning kundalik intensiv yukiga bardosh beradi.",
+            e2t: "Shovqinsiz ishlash",
+            e2d: "Teleskopik yo'naltiruvchilar to'liq yuklanganda ham ravon va shovqinsiz ochiladi.",
+            e3t: "Har kungi qulaylik",
+            e3d: "Puxta ergonomika: har bir dori qo'l ostida va soniyalarda topiladi.",
+            e4t: "Yillarga mo'ljallangan resurs",
+            e4d: "Mexanizmlar o'n minglab ochish-yopish sikllarida sinovdan o'tgan."
         },
         p2dl: { tag: "Batafsil ma'lumot", title: "Mahsulot haqida batafsil ma'lumot", text: "Texnik xususiyatlar, o'lchamlar va konfiguratsiya variantlari keltirilgan PDF-ni yuklab oling.", btn: "PDF yuklab olish" },
         ab: {
@@ -516,37 +577,52 @@ const translations = {
             p1: "25 nafar tajribali mutaxassisdan iborat jamoamiz va chakana savdodagi 20 yildan ortiq tajribamiz bilan dorixonalar uchun estetik, funksional va sotuvga yo'naltirilgan yechimlarni yaratamiz.",
             p2: "Aynan shu yondashuv bilan dorixona tarmoqlari va mustaqil dorixonalar uchun loyihaga xos dizayn, ishlab chiqarish va o'rnatish xizmatlarini taklif etamiz. Har bir loyihani do'kon maydoni, joylashuvi, maqsadli auditoriyasi va brend uslubiga qarab alohida rejalashtiramiz.",
             quote: "Biz uchun dorixona — bu shunchaki mahsulotlar namoyish etiladigan joy emas. To'g'ri rejalashtirilgan dorixona — mijoz tajribasini kuchaytiradigan, maydondan foydalanish samaradorligini oshiradigan, mahsulot toifalarini ko'zga tashlanadigan qiladigan va sotuv salohiyatini yuksaltiradigan kuchli tijorat tuzilmasi.",
-            stat1: "Tashkil etilgan yil", stat2: "Jamoadagi mutaxassislar", stat3: "Yillik chakana savdo tajribasi", stat4: "Markaziy Osiyo mamlakatlari",
+            stat1: "Tashkil etilgan yil",
+            stat2: "Jamoadagi mutaxassislar",
+            stat3: "Yillik chakana savdo tajribasi",
+            stat4: "Markaziy Osiyo mamlakatlari",
             cycleTitle: "To'liq sikl — o'z jamoamiz bilan",
             cycleSub: "Dizayndan ishlab chiqarishgacha, ishlab chiqarishdan o'rnatishgacha — butun jarayonni o'z professional jamoamiz bilan boshqaramiz va mijozlarimizga ishonchli, sifatli va uzoq muddatli yechimlarni taqdim etamiz.",
-            c1t: "Dizayn", c1d: "Har bir dorixonani maydoni, joylashuvi, auditoriyasi va brend uslubiga mos ravishda alohida loyihalashtiramiz.",
-            c2t: "Ishlab chiqarish", c2d: "Mebelni o'z quvvatlarimizda, qat'iy sifat nazorati ostida, sertifikatlangan va bardoshli materiallardan ishlab chiqaramiz.",
-            c3t: "Montaj", c3d: "Yetkazib berish va o'rnatishni o'z professional jamoamiz bajaradi — tez, sifatli va dorixona ishiga eng kam ta'sir bilan.",
+            c1t: "Dizayn",
+            c1d: "Har bir dorixonani maydoni, joylashuvi, auditoriyasi va brend uslubiga mos ravishda alohida loyihalashtiramiz.",
+            c2t: "Ishlab chiqarish",
+            c2d: "Mebelni o'z quvvatlarimizda, qat'iy sifat nazorati ostida, sertifikatlangan va bardoshli materiallardan ishlab chiqaramiz.",
+            c3t: "Montaj",
+            c3d: "Yetkazib berish va o'rnatishni o'z professional jamoamiz bajaradi — tez, sifatli va dorixona ishiga eng kam ta'sir bilan.",
             geoTitle: "Loyihalar geografiyasi",
             geoText: "Bugun biz O'zbekiston bo'ylab loyihalarni amalga oshirib, mahalliy ehtiyojlarni xalqaro chakana savdo standartlari bilan uyg'unlashtiramiz.",
             geo1: "O'zbekiston",
             final: "Biz shunchaki dorixona mebeli ishlab chiqarmaymiz. Biz kuchliroq brendlar, samaraliroq savdo maydonlari va kelajakning yangi avlod dorixonalarini barpo etamiz."
         },
-        cat: { tag: "Katalog", title: "Mahsulotlar katalogi", sub: "Barcha mahsulotlar, o'lchamlar va materiallar — bitta hujjatda", dlTitle: "ZEN PHARM to'liq katalogini yuklab oling", dlText: "O'lchamlar, materiallar va konfiguratsiya variantlari bilan to'liq mahsulot katalogi.", dlBtn: "Katalogni yuklab olish (PDF)" },
+        cat: { tag: "Katalog", title: "Mahsulotlar katalogi", sub: "Barcha mahsulotlar, o'lchamlar va materiallar — bitta hujjatda", dlTitle: "ZEN PHARM to'liq katalogini yuklab oling", dlText: "O'lchamlar, materiallar va konfiguratsiya variantlari bilan to'liq mahsulot katalogi.", dlBtn: "Katalogni yuklab olish (PDF)", prodTitle: "Bizning mahsulotlar" },
         sol: {
             tag: "Jarayon boshqaruvi",
             title: "Har bir qadamda mukammallik",
             sub: "Biz murakkab jarayonlarni shaffof qilamiz. Bizning yondashuvimiz bilan xavflarni boshqaring — faqat natijaga e'tibor qarating.",
             expTitle: "ZEN PHARM tajribasini his eting",
             expQuote: "“To'g'ri yechim to'g'ri material va to'g'ri tashkil etishdan boshlanadi”",
-            p1t: "To'g'ri material", p1d: "Dorixonaning kundalik yukiga mo'ljallangan sertifikatlangan, gigienik va bardoshli materiallar.",
-            p2t: "To'g'ri loyihalash", p2d: "Xaridorlar oqimini yo'naltiradigan, mahsulot namoyishini ta'kidlaydigan va sotuvni oshiradigan rejalashtirish.",
-            p3t: "To'g'ri ishlab chiqarish", p3d: "O'z ishlab chiqarish quvvatlarimiz va har bir bosqichda qat'iy sifat nazorati.",
-            p4t: "To'g'ri o'rnatish", p4d: "O'z vaqtida professional o'rnatish — dorixonangiz ishiga eng kam ta'sir bilan.",
+            p1t: "To'g'ri material",
+            p1d: "Dorixonaning kundalik yukiga mo'ljallangan sertifikatlangan, gigienik va bardoshli materiallar.",
+            p2t: "To'g'ri loyihalash",
+            p2d: "Xaridorlar oqimini yo'naltiradigan, mahsulot namoyishini ta'kidlaydigan va sotuvni oshiradigan rejalashtirish.",
+            p3t: "To'g'ri ishlab chiqarish",
+            p3d: "O'z ishlab chiqarish quvvatlarimiz va har bir bosqichda qat'iy sifat nazorati.",
+            p4t: "To'g'ri o'rnatish",
+            p4d: "O'z vaqtida professional o'rnatish — dorixonangiz ishiga eng kam ta'sir bilan.",
             matTitle: "Metall · Yog'och · Shisha · Laminat",
             matSub: "Har qanday konfiguratsiya uchun o'z ishlab chiqarishimiz"
         },
         work: { tag: "Farq yaratamiz", title: "Bizning ishlarimiz", sub: "O'zbekiston va Markaziy Osiyoning boshqa mamlakatlarida muvaffaqiyatli amalga oshirgan yangi avlod dorixona loyihalarimiz bilan tanishing.", fAll: "Barchasi", fTash: "Toshkent", fSam: "Samarqand", proj1: "Loyiha 1", proj2: "Loyiha 2", proj3: "Loyiha 3", view: "Ko'rish", more: "Yana ko'rsatish" },
         act: {
             heading: "Hoziroq harakat qiling",
-            c1t: "Dorixonangizning 3D loyihasini oling", c1d: "Investitsiyangizni oldindan ko'ring: xonangiz uchun 3D joylashuvni bepul tayyorlaymiz.", c1b: "3D loyiha buyurtma qilish",
-            c2t: "Katalogni yuklab oling", c2d: "O'lchamlar, materiallar va mahsulot xususiyatlari bilan to'liq katalog.",
-            c3t: "Taklif oling", c3d: "Jamoamiz bilan bog'laning — loyihangiz uchun ideal yechimni tanlaymiz.", c3b: "Biz bilan bog'lanish"
+            c1t: "Dorixonangizning 3D loyihasini oling",
+            c1d: "Investitsiyangizni oldindan ko'ring: xonangiz uchun 3D joylashuvni bepul tayyorlaymiz.",
+            c1b: "3D loyiha buyurtma qilish",
+            c2t: "Katalogni yuklab oling",
+            c2d: "O'lchamlar, materiallar va mahsulot xususiyatlari bilan to'liq katalog.",
+            c3t: "Taklif oling",
+            c3d: "Jamoamiz bilan bog'laning — loyihangiz uchun ideal yechimni tanlaymiz.",
+            c3b: "Biz bilan bog'lanish"
         },
         con: { tag: "Biz bilan bog'laning", sub: "G'oyalaringiz va takliflaringizni eshitishga tayyormiz" },
         titles: { about: "Biz haqimizda — ZEN PHARM", catalog: "Katalog — ZEN PHARM", contact: "Aloqa — ZEN PHARM", solutions: "Individual yechimlar — ZEN PHARM", works: "Bizning ishlarimiz — ZEN PHARM" },
@@ -1076,7 +1152,10 @@ window.addEventListener('scroll', () => {
         grab('./content/contacts.json'),
         grab('./content/catalog.json')
     ]).then(function(res) {
-        var p1 = res[0], p2 = res[1], contacts = res[2], catalog = res[3];
+        var p1 = res[0],
+            p2 = res[1],
+            contacts = res[2],
+            catalog = res[3];
 
         if (p1) {
             applyProduct(p1, 'p1', 8);
@@ -1108,4 +1187,158 @@ window.addEventListener('scroll', () => {
 
         if (p1 || p2 || contacts) renderContent(currentLang);
     });
+})();
+
+/* ============================================================
+   ДИНАМИЧЕСКИЕ КАТЕГОРИИ И ТОВАРЫ (content/store.json)
+   Админ добавляет категории и товары через /admin/ →
+   карточки появляются на catalog.html, страница товара
+   рендерится шаблоном product.html?id=ID (вёрстка Pharmafix).
+   ============================================================ */
+(function() {
+    var store = null;
+
+    function catById(id) {
+        return ((store && store.categories) || []).filter(function(c) { return c.id === id; })[0] || null;
+    }
+
+    function catLabel(id, lang) {
+        var c = catById(id);
+        if (!c || !c.name) return id || '';
+        return c.name[lang] || c.name.ru || id;
+    }
+
+    function localized(p, lang) {
+        return (p && p[lang]) || (p && p.ru) || {};
+    }
+
+    function renderStoreGrid(lang) {
+        var grid = document.querySelector('#storeGrid');
+        var filters = document.querySelector('#storeFilters');
+        var section = document.querySelector('#storeSection');
+        if (!grid || !store) return;
+
+        var products = store.products || [];
+        if (!products.length) {
+            if (section) section.style.display = 'none';
+            return;
+        }
+        if (section) section.style.display = '';
+
+        var active = grid.getAttribute('data-active-cat') || 'all';
+
+        if (filters) {
+            var cats = (store.categories || []).filter(function(c) {
+                return products.some(function(p) { return p.category === c.id; });
+            });
+            var html = '<button type="button" class="filter-btn' + (active === 'all' ? ' active' : '') + '" data-cat="all">' + escapeHtml(translations[lang].work.fAll) + '</button>';
+            cats.forEach(function(c) {
+                html += '<button type="button" class="filter-btn' + (active === c.id ? ' active' : '') + '" data-cat="' + escapeHtml(c.id) + '">' + escapeHtml(catLabel(c.id, lang)) + '</button>';
+            });
+            filters.innerHTML = html;
+            filters.querySelectorAll('.filter-btn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    grid.setAttribute('data-active-cat', btn.getAttribute('data-cat'));
+                    renderStoreGrid(currentLang);
+                });
+            });
+        }
+
+        grid.innerHTML = products.filter(function(p) {
+            return active === 'all' || p.category === active;
+        }).map(function(p) {
+            var img = (Array.isArray(p.photos) && p.photos[0]) ? p.photos[0] : '';
+            var media = img ?
+                '<img src="' + escapeHtml(img) + '" alt="' + escapeHtml(p.title || '') + '" loading="lazy">' :
+                '<div class="media-placeholder">' + escapeHtml(p.title || '') + '</div>';
+            var price = p.price ? '<div style="font-weight:800;margin-top:4px;">' + escapeHtml(p.price) + '</div>' : '';
+            return '<a href="./product.html?id=' + encodeURIComponent(p.id) + '" class="portfolio-card">' +
+                '<div class="portfolio-media">' + media + '</div>' +
+                '<div class="portfolio-overlay">' +
+                '<span class="portfolio-cat">' + escapeHtml(catLabel(p.category, lang)) + '</span>' +
+                '<h3>' + escapeHtml(p.title || '') + '</h3>' + price +
+                '<span class="portfolio-link"><span>' + escapeHtml(translations[lang].work.view) + '</span> ' +
+                '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>' +
+                '</div></a>';
+        }).join('');
+    }
+
+    function renderProductPage(lang) {
+        var root = document.querySelector('#dynProduct');
+        if (!root || !store) return;
+
+        var id = new URLSearchParams(location.search).get('id');
+        var p = (store.products || []).filter(function(x) { return x.id === id; })[0];
+        if (!p) { location.replace('./catalog.html'); return; }
+
+        var t = localized(p, lang);
+        document.title = (p.title || '') + ' — ZEN PHARM';
+
+        function setText(sel, val) {
+            var el = document.querySelector(sel);
+            if (el) el.textContent = val || '';
+        }
+        setText('#dynTag', catLabel(p.category, lang));
+        setText('#dynTitle', p.title);
+        setText('#dynBrand', p.title);
+        setText('#dynSubTop', t.sub);
+        setText('#dynSub', t.sub);
+        setText('#dynDesc', t.desc);
+        setText('#dynClosing', t.closing);
+        setText('#dynPrice', p.price);
+
+        var priceEl = document.querySelector('#dynPrice');
+        if (priceEl) priceEl.style.display = p.price ? '' : 'none';
+        var closingEl = document.querySelector('#dynClosing');
+        if (closingEl) closingEl.style.display = t.closing ? '' : 'none';
+
+        var feats = Array.isArray(t.features) ? t.features : [];
+        var ul = document.querySelector('#dynFeatures');
+        if (ul) {
+            ul.innerHTML = feats.map(function(f) {
+                return '<li>' + checkIcon + '<span>' + escapeHtml(f) + '</span></li>';
+            }).join('');
+        }
+        var featTitle = document.querySelector('#dynFeatTitle');
+        if (featTitle) featTitle.style.display = feats.length ? '' : 'none';
+
+        /* слайдер фото — тот же принцип, что у Pharmafix */
+        var slider = document.querySelector('#dynSlider');
+        var dots = document.querySelector('#dynDots');
+        var photos = Array.isArray(p.photos) ? p.photos : [];
+        if (slider && !slider.getAttribute('data-built')) {
+            slider.setAttribute('data-built', '1');
+            slider.innerHTML = photos.map(function(src, i) {
+                return '<img src="' + escapeHtml(src) + '" class="p-slide' + (i === 0 ? ' active' : '') + '" alt="' + escapeHtml((p.title || '') + ' — ' + (i + 1)) + '">';
+            }).join('');
+            if (dots) {
+                dots.innerHTML = photos.length > 1 ? photos.map(function(_, i) {
+                    return '<button class="dot' + (i === 0 ? ' active' : '') + '" aria-label="' + (i + 1) + '"></button>';
+                }).join('') : '';
+                dots.querySelectorAll('.dot').forEach(function(dot, idx) {
+                    dot.addEventListener('click', function() {
+                        dots.querySelectorAll('.dot').forEach(function(d) { d.classList.remove('active'); });
+                        dot.classList.add('active');
+                        slider.querySelectorAll('.p-slide').forEach(function(s, i) { s.classList.toggle('active', i === idx); });
+                    });
+                });
+            }
+        }
+    }
+
+    fetch('./content/store.json', { cache: 'no-cache' })
+        .then(function(r) { return r.ok ? r.json() : null; })
+        .catch(function() { return null; })
+        .then(function(data) {
+            if (!data) return;
+            store = data;
+            renderStoreGrid(currentLang);
+            renderProductPage(currentLang);
+            var prevRender = renderContent;
+            renderContent = function(lang) {
+                prevRender(lang);
+                renderStoreGrid(lang);
+                renderProductPage(lang);
+            };
+        });
 })();

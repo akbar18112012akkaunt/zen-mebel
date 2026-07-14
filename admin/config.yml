@@ -7,7 +7,7 @@ backend:
   name: git-gateway
   branch: main # если ваша ветка называется master — замените здесь
 
-# Автоматический язык интерфейса (подстроится под браузер: TR, RU или UZ)
+# Язык интерфейса админки
 locale: "tr"
 
 # Куда складываются загружаемые картинки
@@ -202,3 +202,100 @@ collections:
             media_folder: "/files"
             public_folder: "/files"
             hint: "Загрузите новый PDF — кнопки «Скачать каталог» на сайте начнут отдавать его автоматически"
+
+  # ==========================================================
+  # КАТЕГОРИИ И ТОВАРЫ (динамические страницы товаров)
+  # ==========================================================
+  - name: "store"
+    label: "Категории и товары"
+    files:
+      - name: "store"
+        label: "Категории и товары"
+        file: "content/store.json"
+        fields:
+          - label: "Категории"
+            name: "categories"
+            widget: "list"
+            collapsed: true
+            summary: "{{fields.id}}"
+            fields:
+              - { label: "ID категории (латиницей, без пробелов)", name: "id", widget: "string", hint: "Например: shelving" }
+              - label: "Название категории"
+                name: "name"
+                widget: "object"
+                fields:
+                  - { label: "RU", name: "ru", widget: "string" }
+                  - { label: "TR", name: "tr", widget: "string" }
+                  - { label: "EN", name: "en", widget: "string" }
+                  - { label: "UZ", name: "uz", widget: "string" }
+
+          - label: "Товары"
+            name: "products"
+            widget: "list"
+            collapsed: true
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID товара (латиницей, без пробелов)", name: "id", widget: "string", hint: "Страница товара откроется по адресу product.html?id=ВАШ-ID" }
+              - { label: "Название товара", name: "title", widget: "string" }
+              - { label: "ID категории", name: "category", widget: "string", hint: "Впишите ID одной из категорий выше, например: shelving" }
+              - { label: "Цена (необязательно)", name: "price", widget: "string", required: false, hint: "Например: от 4 500 000 сум" }
+              - label: "Фотографии товара"
+                name: "photos"
+                widget: "list"
+                field: { label: "Фото", name: "image", widget: "image" }
+
+              - label: "Турецкий (TR)"
+                name: "tr"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Подзаголовок", name: "sub", widget: "string" }
+                  - { label: "Описание", name: "desc", widget: "text" }
+                  - label: "Характеристики"
+                    name: "features"
+                    widget: "list"
+                    required: false
+                    field: { label: "Пункт", name: "item", widget: "string" }
+                  - { label: "Завершающий абзац", name: "closing", widget: "text", required: false }
+
+              - label: "Русский (RU)"
+                name: "ru"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Подзаголовок", name: "sub", widget: "string" }
+                  - { label: "Описание", name: "desc", widget: "text" }
+                  - label: "Характеристики"
+                    name: "features"
+                    widget: "list"
+                    required: false
+                    field: { label: "Пункт", name: "item", widget: "string" }
+                  - { label: "Завершающий абзац", name: "closing", widget: "text", required: false }
+
+              - label: "Английский (EN)"
+                name: "en"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Подзаголовок", name: "sub", widget: "string" }
+                  - { label: "Описание", name: "desc", widget: "text" }
+                  - label: "Характеристики"
+                    name: "features"
+                    widget: "list"
+                    required: false
+                    field: { label: "Пункт", name: "item", widget: "string" }
+                  - { label: "Завершающий абзац", name: "closing", widget: "text", required: false }
+
+              - label: "Узбекский (UZ)"
+                name: "uz"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Подзаголовок", name: "sub", widget: "string" }
+                  - { label: "Описание", name: "desc", widget: "text" }
+                  - label: "Характеристики"
+                    name: "features"
+                    widget: "list"
+                    required: false
+                    field: { label: "Пункт", name: "item", widget: "string" }
+                  - { label: "Завершающий абзац", name: "closing", widget: "text", required: false }
