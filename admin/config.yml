@@ -1,226 +1,226 @@
 # ============================================================
-# Decap CMS — конфигурация админ-панели ZEN PHARM
-# Панель доступна по адресу: https://ВАШ-САЙТ/admin/
+# Decap CMS — ZEN PHARM yönetim paneli yapılandırması
+# Panel adresi: https://SITENIZ/admin/
 # ============================================================
 
 backend:
   name: git-gateway
-  branch: main # если ваша ветка называется master — замените здесь
+  branch: main # dalınız "master" ise burayı değiştirin
 
-# Язык интерфейса админки
+# Yönetim paneli arayüz dili
 locale: "tr"
 
-# Куда складываются загружаемые картинки
+# Yüklenen görsellerin kaydedileceği klasör
 media_folder: "assets/images"
 public_folder: "/assets/images"
 
-# Превью не настраиваем — сайт рендерится своим JS
+# Önizleme yok — site kendi JS'i ile render ediliyor
 editor:
   preview: false
 
 collections:
   # ==========================================================
-  # ПРОДУКЦИЯ
+  # ÜRÜNLER
   # ==========================================================
   - name: "products"
-    label: "Продукция"
+    label: "Ürünler"
     files:
       # --------------------------------------------------
-      # ПРОДУКТ 1 — S25 Wall Unit
+      # ÜRÜN 1 — S25 Wall Unit
       # --------------------------------------------------
       - name: "product1"
-        label: "Продукт 1 — S25 Wall Unit"
+        label: "Ürün 1 — S25 Wall Unit"
         file: "content/product1.json"
         fields:
-          - label: "Фото продукта (product-1-new)"
+          - label: "Ürün fotoğrafı (product-1-new)"
             name: "image"
             widget: "image"
-            hint: "Одно статичное фото продукта S25 Wall Unit"
+            hint: "S25 Wall Unit ürününün tek statik fotoğrafı"
 
-          - label: "Турецкий (TR)"
+          - label: "Türkçe (TR)"
             name: "tr"
             widget: "object"
             collapsed: true
             fields:
-              - { label: "Подзаголовок", name: "sub", widget: "string" }
-              - { label: "Описание", name: "desc", widget: "text" }
-              - label: "Характеристики (8 пунктов)"
+              - { label: "Alt başlık", name: "sub", widget: "string" }
+              - { label: "Açıklama", name: "desc", widget: "text" }
+              - label: "Özellikler (8 madde)"
                 name: "features"
                 widget: "list"
                 min: 8
                 max: 8
-                field: { label: "Пункт", name: "item", widget: "string" }
+                field: { label: "Madde", name: "item", widget: "string" }
 
-          - label: "Русский (RU)"
+          - label: "Rusça (RU)"
             name: "ru"
             widget: "object"
             collapsed: true
             fields:
-              - { label: "Подзаголовок", name: "sub", widget: "string" }
-              - { label: "Описание", name: "desc", widget: "text" }
-              - label: "Характеристики (8 пунктов)"
+              - { label: "Alt başlık", name: "sub", widget: "string" }
+              - { label: "Açıklama", name: "desc", widget: "text" }
+              - label: "Özellikler (8 madde)"
                 name: "features"
                 widget: "list"
                 min: 8
                 max: 8
-                field: { label: "Пункт", name: "item", widget: "string" }
+                field: { label: "Madde", name: "item", widget: "string" }
 
-          - label: "Английский (EN)"
+          - label: "İngilizce (EN)"
             name: "en"
             widget: "object"
             collapsed: true
             fields:
-              - { label: "Подзаголовок", name: "sub", widget: "string" }
-              - { label: "Описание", name: "desc", widget: "text" }
-              - label: "Характеристики (8 пунктов)"
+              - { label: "Alt başlık", name: "sub", widget: "string" }
+              - { label: "Açıklama", name: "desc", widget: "text" }
+              - label: "Özellikler (8 madde)"
                 name: "features"
                 widget: "list"
                 min: 8
                 max: 8
-                field: { label: "Пункт", name: "item", widget: "string" }
+                field: { label: "Madde", name: "item", widget: "string" }
 
-          - label: "Узбекский (UZ)"
+          - label: "Özbekçe (UZ)"
             name: "uz"
             widget: "object"
             collapsed: true
             fields:
-              - { label: "Подзаголовок", name: "sub", widget: "string" }
-              - { label: "Описание", name: "desc", widget: "text" }
-              - label: "Характеристики (8 пунктов)"
+              - { label: "Alt başlık", name: "sub", widget: "string" }
+              - { label: "Açıklama", name: "desc", widget: "text" }
+              - label: "Özellikler (8 madde)"
                 name: "features"
                 widget: "list"
                 min: 8
                 max: 8
-                field: { label: "Пункт", name: "item", widget: "string" }
+                field: { label: "Madde", name: "item", widget: "string" }
 
       # --------------------------------------------------
-      # ПРОДУКТ 2 — Pharmafix
+      # ÜRÜN 2 — Pharmafix
       # --------------------------------------------------
       - name: "product2"
-        label: "Продукт 2 — Pharmafix"
+        label: "Ürün 2 — Pharmafix"
         file: "content/product2.json"
         fields:
-          - label: "Фото 1 (product-two-new-photo)"
+          - label: "Fotoğraf 1 (product-two-new-photo)"
             name: "photo1"
             widget: "image"
-            hint: "Первое фото слайдера Pharmafix"
-          - label: "Фото 2 (product-2-new-photo)"
+            hint: "Pharmafix slider ilk fotoğrafı"
+          - label: "Fotoğraf 2 (product-2-new-photo)"
             name: "photo2"
             widget: "image"
-            hint: "Второе фото слайдера Pharmafix"
+            hint: "Pharmafix slider ikinci fotoğrafı"
 
-          - label: "Турецкий (TR)"
+          - label: "Türkçe (TR)"
             name: "tr"
             widget: "object"
             collapsed: true
             fields:
-              - { label: "Подзаголовок", name: "sub", widget: "string" }
-              - { label: "Описание", name: "desc", widget: "text" }
-              - label: "Характеристики (6 пунктов)"
+              - { label: "Alt başlık", name: "sub", widget: "string" }
+              - { label: "Açıklama", name: "desc", widget: "text" }
+              - label: "Özellikler (6 madde)"
                 name: "features"
                 widget: "list"
                 min: 6
                 max: 6
-                field: { label: "Пункт", name: "item", widget: "string" }
-              - { label: "Завершающий абзац", name: "closing", widget: "text" }
+                field: { label: "Madde", name: "item", widget: "string" }
+              - { label: "Kapanış paragrafı", name: "closing", widget: "text" }
 
-          - label: "Русский (RU)"
+          - label: "Rusça (RU)"
             name: "ru"
             widget: "object"
             collapsed: true
             fields:
-              - { label: "Подзаголовок", name: "sub", widget: "string" }
-              - { label: "Описание", name: "desc", widget: "text" }
-              - label: "Характеристики (6 пунктов)"
+              - { label: "Alt başlık", name: "sub", widget: "string" }
+              - { label: "Açıklama", name: "desc", widget: "text" }
+              - label: "Özellikler (6 madde)"
                 name: "features"
                 widget: "list"
                 min: 6
                 max: 6
-                field: { label: "Пункт", name: "item", widget: "string" }
-              - { label: "Завершающий абзац", name: "closing", widget: "text" }
+                field: { label: "Madde", name: "item", widget: "string" }
+              - { label: "Kapanış paragrafı", name: "closing", widget: "text" }
 
-          - label: "Английский (EN)"
+          - label: "İngilizce (EN)"
             name: "en"
             widget: "object"
             collapsed: true
             fields:
-              - { label: "Подзаголовок", name: "sub", widget: "string" }
-              - { label: "Описание", name: "desc", widget: "text" }
-              - label: "Характеристики (6 пунктов)"
+              - { label: "Alt başlık", name: "sub", widget: "string" }
+              - { label: "Açıklama", name: "desc", widget: "text" }
+              - label: "Özellikler (6 madde)"
                 name: "features"
                 widget: "list"
                 min: 6
                 max: 6
-                field: { label: "Пункт", name: "item", widget: "string" }
-              - { label: "Завершающий абзац", name: "closing", widget: "text" }
+                field: { label: "Madde", name: "item", widget: "string" }
+              - { label: "Kapanış paragrafı", name: "closing", widget: "text" }
 
-          - label: "Узбекский (UZ)"
+          - label: "Özbekçe (UZ)"
             name: "uz"
             widget: "object"
             collapsed: true
             fields:
-              - { label: "Подзаголовок", name: "sub", widget: "string" }
-              - { label: "Описание", name: "desc", widget: "text" }
-              - label: "Характеристики (6 пунктов)"
+              - { label: "Alt başlık", name: "sub", widget: "string" }
+              - { label: "Açıklama", name: "desc", widget: "text" }
+              - label: "Özellikler (6 madde)"
                 name: "features"
                 widget: "list"
                 min: 6
                 max: 6
-                field: { label: "Пункт", name: "item", widget: "string" }
-              - { label: "Завершающий абзац", name: "closing", widget: "text" }
+                field: { label: "Madde", name: "item", widget: "string" }
+              - { label: "Kapanış paragrafı", name: "closing", widget: "text" }
 
   # ==========================================================
-  # КОНТАКТЫ И ФАЙЛЫ
+  # İLETİŞİM VE DOSYALAR
   # ==========================================================
   - name: "settings"
-    label: "Контакты и файлы"
+    label: "İletişim ve dosyalar"
     files:
       - name: "contacts"
-        label: "Контакты"
+        label: "İletişim"
         file: "content/contacts.json"
         fields:
-          - { label: "Телефон", name: "phone", widget: "string", hint: "Показывается на странице Контакты и в подвале всех страниц" }
-          - { label: "Почта (Email)", name: "email", widget: "string" }
-          - { label: "Instagram", name: "instagram", widget: "string", hint: "Логин с @ или без, например: @zendorixonamebel" }
-          - { label: "Рабочее время", name: "hours", widget: "string", hint: "Например: 09:00 – 18:00" }
-          - label: "Адрес (на каждом языке)"
+          - { label: "Telefon", name: "phone", widget: "string", hint: "İletişim sayfasında ve tüm sayfaların altbilgisinde görünür" }
+          - { label: "E-posta (Email)", name: "email", widget: "string" }
+          - { label: "Instagram", name: "instagram", widget: "string", hint: "@ ile veya @ olmadan, örn: @zendorixonamebel" }
+          - { label: "Çalışma saatleri", name: "hours", widget: "string", hint: "Örn: 09:00 – 18:00" }
+          - label: "Adres (her dilde)"
             name: "address"
             widget: "object"
             fields:
-              - { label: "Адрес (RU)", name: "ru", widget: "string" }
+              - { label: "Adres (RU)", name: "ru", widget: "string" }
               - { label: "Adres (TR)", name: "tr", widget: "string" }
-              - { label: "Address (EN)", name: "en", widget: "string" }
-              - { label: "Manzil (UZ)", name: "uz", widget: "string" }
+              - { label: "Adres (EN)", name: "en", widget: "string" }
+              - { label: "Adres (UZ)", name: "uz", widget: "string" }
 
       - name: "catalog"
-        label: "Каталог (PDF)"
+        label: "Katalog (PDF)"
         file: "content/catalog.json"
         fields:
-          - label: "PDF-файл каталога"
+          - label: "Katalog PDF dosyası"
             name: "file"
             widget: "file"
             media_folder: "/files"
             public_folder: "/files"
-            hint: "Загрузите новый PDF — кнопки «Скачать каталог» на сайте начнут отдавать его автоматически"
+            hint: "Yeni PDF yükleyin — sitedeki «Kataloğu indir» butonları otomatik olarak bunu verecek"
 
   # ==========================================================
-  # КАТЕГОРИИ И ТОВАРЫ (динамические страницы товаров)
+  # KATEGORİLER VE ÜRÜNLER (dinamik ürün sayfaları)
   # ==========================================================
   - name: "store"
-    label: "Категории и товары"
+    label: "Kategoriler ve ürünler"
     files:
       - name: "store"
-        label: "Категории и товары"
+        label: "Kategoriler ve ürünler"
         file: "content/store.json"
         fields:
-          - label: "Категории"
+          - label: "Kategoriler"
             name: "categories"
             widget: "list"
             collapsed: true
             summary: "{{fields.id}}"
             fields:
-              - { label: "ID категории (латиницей, без пробелов)", name: "id", widget: "string", hint: "Например: shelving" }
-              - label: "Название категории"
+              - { label: "Kategori ID (latin harflerle, boşluksuz)", name: "id", widget: "string", hint: "Örn: shelving" }
+              - label: "Kategori adı"
                 name: "name"
                 widget: "object"
                 fields:
@@ -229,73 +229,73 @@ collections:
                   - { label: "EN", name: "en", widget: "string" }
                   - { label: "UZ", name: "uz", widget: "string" }
 
-          - label: "Товары"
+          - label: "Ürünler"
             name: "products"
             widget: "list"
             collapsed: true
             summary: "{{fields.title}}"
             fields:
-              - { label: "ID товара (латиницей, без пробелов)", name: "id", widget: "string", hint: "Страница товара откроется по адресу product.html?id=ВАШ-ID" }
-              - { label: "Название товара", name: "title", widget: "string" }
-              - { label: "ID категории", name: "category", widget: "string", hint: "Впишите ID одной из категорий выше, например: shelving" }
-              - { label: "Цена (необязательно)", name: "price", widget: "string", required: false, hint: "Например: от 4 500 000 сум" }
-              - label: "Фотографии товара"
+              - { label: "Ürün ID (latin harflerle, boşluksuz)", name: "id", widget: "string", hint: "Ürün sayfası şu adreste açılır: product.html?id=SİZİN-ID" }
+              - { label: "Ürün adı", name: "title", widget: "string" }
+              - { label: "Kategori ID", name: "category", widget: "string", hint: "Yukarıdaki kategorilerden birinin ID'sini yazın, örn: shelving" }
+              - { label: "Fiyat (isteğe bağlı)", name: "price", widget: "string", required: false, hint: "Örn: 4 500 000 sum'dan başlayan" }
+              - label: "Ürün fotoğrafları"
                 name: "photos"
                 widget: "list"
-                field: { label: "Фото", name: "image", widget: "image" }
+                field: { label: "Fotoğraf", name: "image", widget: "image" }
 
-              - label: "Турецкий (TR)"
+              - label: "Türkçe (TR)"
                 name: "tr"
                 widget: "object"
                 collapsed: true
                 fields:
-                  - { label: "Подзаголовок", name: "sub", widget: "string" }
-                  - { label: "Описание", name: "desc", widget: "text" }
-                  - label: "Характеристики"
+                  - { label: "Alt başlık", name: "sub", widget: "string" }
+                  - { label: "Açıklama", name: "desc", widget: "text" }
+                  - label: "Özellikler"
                     name: "features"
                     widget: "list"
                     required: false
-                    field: { label: "Пункт", name: "item", widget: "string" }
-                  - { label: "Завершающий абзац", name: "closing", widget: "text", required: false }
+                    field: { label: "Madde", name: "item", widget: "string" }
+                  - { label: "Kapanış paragrafı", name: "closing", widget: "text", required: false }
 
-              - label: "Русский (RU)"
+              - label: "Rusça (RU)"
                 name: "ru"
                 widget: "object"
                 collapsed: true
                 fields:
-                  - { label: "Подзаголовок", name: "sub", widget: "string" }
-                  - { label: "Описание", name: "desc", widget: "text" }
-                  - label: "Характеристики"
+                  - { label: "Alt başlık", name: "sub", widget: "string" }
+                  - { label: "Açıklama", name: "desc", widget: "text" }
+                  - label: "Özellikler"
                     name: "features"
                     widget: "list"
                     required: false
-                    field: { label: "Пункт", name: "item", widget: "string" }
-                  - { label: "Завершающий абзац", name: "closing", widget: "text", required: false }
+                    field: { label: "Madde", name: "item", widget: "string" }
+                  - { label: "Kapanış paragrafı", name: "closing", widget: "text", required: false }
 
-              - label: "Английский (EN)"
+              - label: "İngilizce (EN)"
                 name: "en"
                 widget: "object"
                 collapsed: true
                 fields:
-                  - { label: "Подзаголовок", name: "sub", widget: "string" }
-                  - { label: "Описание", name: "desc", widget: "text" }
-                  - label: "Характеристики"
+                  - { label: "Alt başlık", name: "sub", widget: "string" }
+                  - { label: "Açıklama", name: "desc", widget: "text" }
+                  - label: "Özellikler"
                     name: "features"
                     widget: "list"
                     required: false
-                    field: { label: "Пункт", name: "item", widget: "string" }
-                  - { label: "Завершающий абзац", name: "closing", widget: "text", required: false }
+                    field: { label: "Madde", name: "item", widget: "string" }
+                  - { label: "Kapanış paragrafı", name: "closing", widget: "text", required: false }
 
-              - label: "Узбекский (UZ)"
+              - label: "Özbekçe (UZ)"
                 name: "uz"
                 widget: "object"
                 collapsed: true
                 fields:
-                  - { label: "Подзаголовок", name: "sub", widget: "string" }
-                  - { label: "Описание", name: "desc", widget: "text" }
-                  - label: "Характеристики"
+                  - { label: "Alt başlık", name: "sub", widget: "string" }
+                  - { label: "Açıklama", name: "desc", widget: "text" }
+                  - label: "Özellikler"
                     name: "features"
                     widget: "list"
                     required: false
-                    field: { label: "Пункт", name: "item", widget: "string" }
-                  - { label: "Завершающий абзац", name: "closing", widget: "text", required: false }
+                    field: { label: "Madde", name: "item", widget: "string" }
+                  - { label: "Kapanış paragrafı", name: "closing", widget: "text", required: false }
