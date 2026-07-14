@@ -8,7 +8,7 @@ backend:
   branch: main # если ваша ветка называется master — замените здесь
 
 # Язык интерфейса админки
-locale: "ru"
+locale: "tr"
 
 # Куда складываются загружаемые картинки
 media_folder: "assets/images"
