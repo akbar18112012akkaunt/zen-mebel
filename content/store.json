@@ -1,0 +1,12 @@
+{
+    "categories": [{
+        "id": "shelving",
+        "name": {
+            "ru": "Стеллажи",
+            "tr": "Raf Sistemleri",
+            "en": "Shelving",
+            "uz": "Stellajlar"
+        }
+    }],
+    "products": []
+}
